@@ -1,0 +1,66 @@
+.header {
+     background: #1f2937;
+     display: flex;
+     justify-content: space-between;
+     padding: 5px;
+     width: 100%;
+
+    }
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 26px;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 500px;
+    padding: 0px;
+    margin: 5%;
+}
+
+.hero-container {
+    background: #1f2937;
+    color: #e5e7eb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 18px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    padding: 18px;
+}
+
+.hero-text {
+
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 7px;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #F9FAF8;
+    border: none;
+}
