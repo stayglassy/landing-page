@@ -35,6 +35,12 @@ img {
     margin: 5%;
 }
 
+.image1 {
+    width: 400px;
+    height: 300px;
+    margin: 5%;
+}
+
 .hero-container {
     background: #1f2937;
     color: #e5e7eb;
