@@ -57,10 +57,11 @@ img {
     padding: 18px;
 }
 
-button {
+.button1 {
     cursor: pointer;
-    padding: 8px 16px;
-    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
     background-color: #3882F6;
     font-weight: bold;
     color: #F9FAF8;
@@ -98,9 +99,60 @@ img {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    padding: 40px;
-    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex-end;
+    flex-direction: column;
     margin-right: auto;
+}
 
+.quote2 {
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 60px;
+    background-color: #3882F6;
+    width: 700px;
+    height: 15px;
+    margin: 50px;
+    margin-left: 90px;
+}
+
+.signup1 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.signup1, .signup2 {
+    align-items: flex-start;
+
+}
+
+.button2 {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #F9FAF8;
+    border-style: solid;
+    border-color: #e5e7eb
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    padding: 20px;
 
 }
